@@ -1,3 +1,5 @@
+import random
+
 #alien.py
 # alien_0 = {'color': 'green', 'points': 5}
 # print(alien_0['color'])
@@ -200,6 +202,221 @@
 
 #6-5 river
 
-river = {
-    'ni'
-}
+# rivers = {
+#     "Nile": "Egypt",
+#     "Amazon": "Brazil",
+#     "Yangtze": "China",
+#     "Mississippi": "United States",
+#     "Congo": "Democratic Republic of Congo",
+#     "Mekong": "China",
+#     "Danube": "Germany",
+#     "Ganges": "India",
+#     "Euphrates": "Iraq",
+#     "Indus": "Pakistan",
+# }
+
+# for key, value in rivers.items():
+#     print(f"The {key} river runs through {value}.")
+#     print("----------------------------------------------")
+
+# for river in rivers.keys():
+#     print(f"This is a river called: {river}.")
+#     print("----------------------------------------------")
+
+# for nations in rivers.values():
+#     print(f"{nations} has a river somewhere.")
+#     print("----------------------------------------------")
+
+
+#already did a nested loop not completely but still did it
+
+# aliens = []
+
+# for alien_number in range(30):
+#     new_alien = {'color': 'green', 'points':5, 'speed':'slow'}
+#     aliens.append(new_alien)
+
+# for alien in aliens[0:10:2]:
+#     if alien['color'] == 'green':
+#         alien['color'] = 'yellow'
+#         alien['points'] = 10
+#         alien['speed'] = 'medium'
+    
+# for alien in aliens[:10:3]:
+#     if alien['color'] == 'green':
+#          alien['color'] = 'red'
+#          alien['points'] = 15
+#          alien['speed'] = 'fast'
+
+# for alien in aliens[:10]:
+#     print(alien)
+# print("......")
+
+# favorite_languages = {
+#     'jen': ['python','rust'],
+#     'sarah': ['c'],
+#     'edward': ['rust', 'go'],
+#     'phil': ['python', 'haskell']
+
+# }
+
+# for name, languages in favorite_languages.items():
+#     if len(languages) == 1:
+#      print(f"\n{name.title()}'s favorite language is: ") 
+#      for language in languages:
+#         print(f"\t{language.title()}")
+#     elif len(languages) == 2:
+#      languages.pop(1)
+#      print(f"\n{name.title()}'s favorite language is: ")
+#      for language in languages:
+#          print(f"\t{language.title()}")
+
+
+
+
+#6-7
+
+# users = {'AOthniel' : {
+#      'first-name' : 'Othniel' ,
+#      'last-name' : 'Ampofo',
+#      'age' : 17 ,
+#      'location' : 'west-fargo'
+# },
+# 'DJohn' : {
+#      'first-name' :'John',
+#      'last-name' : 'doe',
+#      'age': 26,
+#      'location': 'florida'
+# },
+
+# 'DMary' : {
+#      'first-name' :'Mary',
+#      'last-name' : 'doe',
+#      'age': 23,
+#      'location': 'florida'
+# }
+# }
+
+
+# for username, user_info in users.items():
+#     print(f"\nUsername: {username}")
+#     full_name = f"{user_info['first-name']} {user_info['last-name']}"
+#     location = user_info['location']
+
+#     print(f"\tFullname: {full_name}")
+#     print(f"\tlocation: {location}")
+
+# #6-8
+# pet_list = {
+#     'german shepherd': {
+#         'pet_name' : 'peace',
+#          'life_expecenty' : '9-16 years',
+#          'age': 5
+#     },
+    
+#     'bulldog': {
+#         'pet_name' : 'luke',
+#          'life_expecenty' : '8-10 years',
+#          'age': 3
+#     },
+
+#     'husky': {
+#         'pet_name' : 'joy',
+#         'life_expecenty' : '12-15 years',
+#         'age': 7
+#     }
+
+# }
+
+# for breed, pet_info in pet_list.items():
+#     print(f"\n Breed: {breed}")
+#     name = pet_info['pet_name']
+#     life_max = pet_info['life_expecenty']
+#     current_age = pet_info['age']
+
+#     print(f"\t NAME: {name}")
+#     print(f"\t Life Expecenty: {life_max}")
+#     print(f"\t Current Age: {current_age}")
+
+#6-9
+
+
+# name  = input("Enter your name:")
+# while True:
+#     location = input("Enter three locations you like: ")
+#     list_location = [spot.strip() for spot in location.split(",")] 
+#     if len(list_location) == 3:
+#      break
+# reason1 = input("Enter your reason:")
+# name2 = input("Enter your name:")
+# while True:
+#     location1 = input("Enter three locations you like: ")
+#     list_location1 = [spot.strip() for spot in location1.split(",")]
+#     if len(list_location1) == 3:
+#      break
+# reason2 = input("Enter your reason:")
+# name3 = input("Enter your name:")
+# while True:
+#     location2 = input("Enter three locations you like: ")
+#     list_location2 = [spot.strip() for spot in location2.split(",")]
+#     if len(list_location2) == 3:
+#      break
+# reason3 = input("Enter your reason:")
+# main_location = [location, location1, location2]
+# favorite_place = {
+#    name:{
+#       'location': main_location[0],
+#       'reason' : reason1
+#    },
+#    name2:{
+#       'location': main_location[1],
+#       'reason' : reason2
+#    },
+#    name3:{
+#       'location': main_location[2],
+#       'reason': reason3
+#    }
+# }
+# for keys, values in favorite_place.items():
+#    print(f"{keys} said here are their favorite locations:")
+#    print(f"\t{values}")
+
+
+#6-10
+# favorite number
+# friends = ["Alice", "Bob", "Carlos", "Diana"]
+
+# for friend in friends:
+#   numbers = random.randint(1, 100)
+#   print(f"{friend}'s favorite number is :\n{numbers }")
+
+
+#6-11
+# info_cities ={
+#     'Cape Town':{
+#         'country': ' South Africa',
+#         "population": 5147000,
+#         'fact' : " Cape Town is home to the world's first heart transplant," 
+# "which was performed by Dr. Christiaan Barnard at Groote Schuur Hospital in 1967."
+#     },
+#     'Medellín':{
+#         'country': 'Colombia',
+#         'population': 4208000,
+# 'fact': 'Transformed from a dangerous hub into a global leader in urban '
+# 'innovation'
+
+#     },
+#     'Dakar': {
+#         'country':'sengal',
+#         'population': 3789000,
+#         'fact': ' It is the westernmost city on the African mainland.'
+#     }
+# }
+# cities = {
+#     'Cape Town':info_cities['Cape Town'],
+#     'Dakar':info_cities['Dakar'],
+#     'Medellin': info_cities['Medellín']
+
+# }
+# for keys, data in cities.items():
+#  print(f"Here is information about {keys}:\n\t{data}")
