@@ -1,3 +1,4 @@
+
 #name = "othniel darling-ampofo"
 #print(name.title())
 #print(name.upper())
@@ -103,4 +104,3 @@
 #file_type = "Python_course.txt"
 #print(file_type)
 #file_type = file_type.removesuffix(".txt")
-#print(file_type)

@@ -1,3 +1,4 @@
+
 #defining a function
 # def greeting_user():
 #     print("Hello!")
@@ -148,32 +149,32 @@
 #           print(f"Hello, {name}")
 
 
-def city_format(city, country ):
-    city_formatted = f"{city.title()},{country.title()}"
-    return city_formatted
+# def city_format(city, country ):
+#     city_formatted = f"{city.title()},{country.title()}"
+#     return city_formatted
 
-active = True 
-prompt = "Enter a city and a Country."
-prompt = "\nEnter quit to exit."
-city_list = []
-country_list = []
-while active:
-    print(prompt)
-    city = input("Enter a city:") 
-    if city == "quit":
-       print("Quiting Program........")
-       for i in range(len(city_list)):
-        print(city_format(city_list[i],country_list[i]))
-        # for t in range(len(country_list)-1):
-        #  print(city_format(country_list[i]))
-       active = False
-    elif city != "quit":
-       country = input("Enter a country:")
-       city_list.append(city)
-       country_list.append(country)
+# active = True 
+# prompt = "Enter a city and a Country."
+# prompt = "\nEnter quit to exit."
+# city_list = []
+# country_list = []
+# while active:
+#     print(prompt)
+#     city = input("Enter a city:") 
+#     if city == "quit":
+#        print("Quiting Program........")
+#        for i in range(len(city_list)):
+#         print(city_format(city_list[i],country_list[i]))
+#         # for t in range(len(country_list)-1):
+#         #  print(city_format(country_list[i]))
+#        active = False
+#     elif city != "quit":
+#        country = input("Enter a country:")
+#        city_list.append(city)
+#        country_list.append(country)
        
-    else:
-       pass
+#     else:
+#        pass
      
      
      
