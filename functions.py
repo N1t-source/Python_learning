@@ -147,7 +147,7 @@
 #     else:
 #           name = getting_ready(f_name,l_name)
 #           print(f"Hello, {name}")
-
+#8-6
 
 # def city_format(city, country ):
 #     city_formatted = f"{city.title()},{country.title()}"
@@ -178,3 +178,63 @@
      
      
      
+#8-7
+# #album
+# def making_album(artist, album_title, songs= 0):
+#     x , y, z  = artist, album_title, songs
+#     dic = {
+#         "aritist":x,
+#         "ablum title":y,
+#         "songs":z
+
+
+#     }
+#     # for aritist in dic['aritist'].items():     
+#     # x = dic["aritist"].append(aritist)
+#     # # for album_title in dic["ablum title"].items():
+#     # y = dic['ablum title'].append(album_title)
+#     # z = dic['songs'].append(songs)
+#     return dic 
+
+# print(making_album('john', 'lost', 10))
+
+
+#8-8
+#update to the ablum code
+def making_album(artist, album_title, songs=0):
+    dic = {
+        "artist": artist,
+        "album title": album_title,
+        "songs": songs
+    }
+    return dic
+
+
+prompt = "\nWelcome info.album"
+prompt += "\nEnter artist, album title, and songs."
+prompt += "\nEnter 'quit' at any time to exit."
+
+active = True
+
+while active:
+    print(prompt)
+
+    artist_info = input("Enter the artist: ")
+    if artist_info.lower() == "quit":
+        print("Quitting the program...")
+        break
+
+    album_info = input("Enter the album title: ")
+    if album_info.lower() == "quit":
+        print("Quitting the program...")
+        break
+
+    song_input = input("Enter number of songs: ")
+    if song_input.lower() == "quit":
+        print("Quitting the program...")
+        break
+
+    song_info = int(song_input)
+
+    album = making_album(artist_info, album_info, song_info)
+    print(album)
