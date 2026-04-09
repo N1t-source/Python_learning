@@ -201,40 +201,51 @@
 
 #8-8
 #update to the ablum code
-def making_album(artist, album_title, songs=0):
-    dic = {
-        "artist": artist,
-        "album title": album_title,
-        "songs": songs
-    }
-    return dic
+# def making_album(artist, album_title, songs=0):
+#     dic = {
+#         "artist": artist,
+#         "album title": album_title,
+#         "songs": songs
+#     }
+#     return dic
 
 
-prompt = "\nWelcome info.album"
-prompt += "\nEnter artist, album title, and songs."
-prompt += "\nEnter 'quit' at any time to exit."
+# prompt = "\nWelcome info.album"
+# prompt += "\nEnter artist, album title, and songs."
+# prompt += "\nEnter 'quit' at any time to exit."
 
-active = True
+# active = True
 
-while active:
-    print(prompt)
+# while active:
+#     print(prompt)
 
-    artist_info = input("Enter the artist: ")
-    if artist_info.lower() == "quit":
-        print("Quitting the program...")
-        break
+#     artist_info = input("Enter the artist: ")
+#     if artist_info.lower() == "quit":
+#         print("Quitting the program...")
+#         break
 
-    album_info = input("Enter the album title: ")
-    if album_info.lower() == "quit":
-        print("Quitting the program...")
-        break
+#     album_info = input("Enter the album title: ")
+#     if album_info.lower() == "quit":
+#         print("Quitting the program...")
+#         break
 
-    song_input = input("Enter number of songs: ")
-    if song_input.lower() == "quit":
-        print("Quitting the program...")
-        break
+#     song_input = input("Enter number of songs: ")
+#     if song_input.lower() == "quit":
+#         print("Quitting the program...")
+#         break
 
-    song_info = int(song_input)
+#     song_info = int(song_input)
 
-    album = making_album(artist_info, album_info, song_info)
-    print(album)
+#     album = making_album(artist_info, album_info, song_info)
+#     print(album)
+
+# passing a list 
+# def greet_users(names):
+#     for name in names:
+#         msg = f"Hello, {name.title()}"
+#         print(msg)
+
+# usernames = ['john', 'mike','james']
+# greet_users(usernames)
+
+#modifing the list 
