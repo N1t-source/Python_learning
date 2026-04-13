@@ -1,4 +1,4 @@
-
+import random
 #defining a function
 # def greeting_user():
 #     print("Hello!")
@@ -259,3 +259,36 @@
 # print("\nThe following models have been printed:")
 # for completed_model in completed_models:
 #     print(completed_model.title())
+
+
+
+# 8-9 message
+
+def random_message():
+ messages = [
+        "Keep going, you are doing great.",
+        "Today is a perfect day to learn.",
+        "Believe in yourself and keep trying.",
+        "Small steps lead to big success.",
+        "Stay focused and never give up.",
+        "Your hard work will pay off.",
+        "Learning today builds success tomorrow.",
+        "Mistakes help you grow stronger.",
+        "Be patient, progress takes time.",
+        "You are becoming better every day.",
+        "Stay curious and keep learning.",
+        "Every challenge is a chance to improve.",
+        "Success starts with consistency.",
+        "You are stronger than you think.",
+        "Do not stop now, you are making progress.",
+        "Great things take time and effort.",
+        "Keep building your future one step at a time.",
+        "Confidence grows when you keep trying.",
+        "Your effort matters every single day.",
+        "Progress is still progress, no matter how small."
+    ]
+ return (random.choice(messages))
+print(random_message())
+
+
+random_message()
