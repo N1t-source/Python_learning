@@ -369,3 +369,33 @@ import random
 #         print(f"Sent message: {sent}")
 
 # sending_message()
+
+#skipped 8-11 cuz it is kinda repeptitive 
+
+#passing an arbitary of arguments
+# def make_pizza(*toppings):
+#     print("\nMaking a pizza with the following toppings:")
+#     for topping in toppings:
+#      print(f"-{topping}")
+
+# make_pizza("chesse","chicken")
+
+# mixing positional ans arbitary arguments
+
+# def make_pizza(size,*toppings):
+#     print(f"\nMaking a {size}-inch pizza with the following toppings:")
+#     for topping in toppings
+#         print(f"-{topping}")
+
+# make_pizza(16,"chesse" ,"chicken")
+
+#using arbitary Keyword arguments
+
+# def build_profile(first, last, **user_info):
+#     user_info['first-name'] = first
+#     user_info['last-name']= last
+#     return user_info
+
+# user_info = build_profile('othniel', 'ampofo', location='north dakota',
+#               city='west-fargo')
+# print(user_info)
