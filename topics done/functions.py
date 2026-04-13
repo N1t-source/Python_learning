@@ -263,32 +263,109 @@ import random
 
 
 # 8-9 message
+#my version
+# def random_message():
+#  messages = [
+#         "Keep going, you are doing great.",
+#         "Today is a perfect day to learn.",
+#         "Believe in yourself and keep trying.",
+#         "Small steps lead to big success.",
+#         "Stay focused and never give up.",
+#         "Your hard work will pay off.",
+#         "Learning today builds success tomorrow.",
+#         "Mistakes help you grow stronger.",
+#         "Be patient, progress takes time.",
+#         "You are becoming better every day.",
+#         "Stay curious and keep learning.",
+#         "Every challenge is a chance to improve.",
+#         "Success starts with consistency.",
+#         "You are stronger than you think.",
+#         "Do not stop now, you are making progress.",
+#         "Great things take time and effort.",
+#         "Keep building your future one step at a time.",
+#         "Confidence grows when you keep trying.",
+#         "Your effort matters every single day.",
+#         "Progress is still progress, no matter how small."
+#     ]
+#  return (random.choice(messages))
+# print(random_message())
 
-def random_message():
- messages = [
-        "Keep going, you are doing great.",
-        "Today is a perfect day to learn.",
-        "Believe in yourself and keep trying.",
-        "Small steps lead to big success.",
-        "Stay focused and never give up.",
-        "Your hard work will pay off.",
-        "Learning today builds success tomorrow.",
-        "Mistakes help you grow stronger.",
-        "Be patient, progress takes time.",
-        "You are becoming better every day.",
-        "Stay curious and keep learning.",
-        "Every challenge is a chance to improve.",
-        "Success starts with consistency.",
-        "You are stronger than you think.",
-        "Do not stop now, you are making progress.",
-        "Great things take time and effort.",
-        "Keep building your future one step at a time.",
-        "Confidence grows when you keep trying.",
-        "Your effort matters every single day.",
-        "Progress is still progress, no matter how small."
-    ]
- return (random.choice(messages))
-print(random_message())
 
+# random_message()
 
-random_message()
+#8-10
+#sending message
+# def message():
+#  messages = [
+#         "Keep going, you are doing great.",
+#         "Today is a perfect day to learn.",
+#         "Believe in yourself and keep trying.",
+#         "Small steps lead to big success.",
+#         "Stay focused and never give up.",
+#         "Your hard work will pay off.",
+#         "Learning today builds success tomorrow.",
+#         "Mistakes help you grow stronger.",
+#         "Be patient, progress takes time.",
+#         "You are becoming better every day.",
+#         "Stay curious and keep learning.",
+#         "Every challenge is a chance to improve.",
+#         "Success starts with consistency.",
+#         "You are stronger than you think.",
+#         "Do not stop now, you are making progress.",
+#         "Great things take time and effort.",
+#         "Keep building your future one step at a time.",
+#         "Confidence grows when you keep trying.",
+#         "Your effort matters every single day.",
+#         "Progress is still progress, no matter how small."
+#     ]
+#  return messages
+
+# def sending_message():
+#   sent_message = []
+#   for info in message():
+#    print(f"Current message:{info}")
+#    print(".................................")
+#    sent_message.append(info)
+   
+#   for sent in sent_message:
+#     print(f"Sent Message:{sent}")
+
+# sending_message()
+
+# chatgpt version 
+# messages = [
+#     "Keep going, you are doing great.",
+#     "Today is a perfect day to learn.",
+#     "Believe in yourself and keep trying.",
+#     "Small steps lead to big success.",
+#     "Stay focused and never give up.",
+#     "Your hard work will pay off.",
+#     "Learning today builds success tomorrow.",
+#     "Mistakes help you grow stronger.",
+#     "Be patient, progress takes time.",
+#     "You are becoming better every day.",
+#     "Stay curious and keep learning.",
+#     "Every challenge is a chance to improve.",
+#     "Success starts with consistency.",
+#     "You are stronger than you think.",
+#     "Do not stop now, you are making progress.",
+#     "Great things take time and effort.",
+#     "Keep building your future one step at a time.",
+#     "Confidence grows when you keep trying.",
+#     "Your effort matters every single day.",
+#     "Progress is still progress, no matter how small."
+# ]
+
+# def sending_message():
+#     sent_messages = []
+
+#     for msg in messages:
+#         print(f"Current message: {msg}")
+#         print(".................................")
+#         sent_messages.append(msg)
+
+#     print("\nAll sent messages:")
+#     for sent in sent_messages:
+#         print(f"Sent message: {sent}")
+
+# sending_message()
