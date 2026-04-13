@@ -249,13 +249,13 @@
 # greet_users(usernames)
 
 #modifing the list in a function 
-unprinted_design = [ 'phone case', 'robot pendant', 'dodecahedron']
-completed_models = []
+# unprinted_design = [ 'phone case', 'robot pendant', 'dodecahedron']
+# completed_models = []
 
-while unprinted_design:
-    current_design = unprinted_design.pop()
-    print(f"Prining model: {current_design.title()}")
-    completed_models.append(current_design)
-print("\nThe following models have been printed:")
-for completed_model in completed_models:
-    print(completed_model.title())
+# while unprinted_design:
+#     current_design = unprinted_design.pop()
+#     print(f"Prining model: {current_design.title()}")
+#     completed_models.append(current_design)
+# print("\nThe following models have been printed:")
+# for completed_model in completed_models:
+#     print(completed_model.title())
