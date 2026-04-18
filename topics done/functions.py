@@ -399,3 +399,38 @@ import random
 # user_info = build_profile('othniel', 'ampofo', location='north dakota',
 #               city='west-fargo')
 # print(user_info)
+
+#8-12
+
+# def making_sandwiches(*args):
+#     print("Making your sandwiche: ")
+#     for info in args:
+#         print(f"-{info}")
+    
+
+# making_sandwiches("chesse","onions")
+# making_sandwiches("chicken","tuna")
+
+#8-13
+#user_profile
+# def user_profile(first,last,**kwarg):
+#     kwarg['first-name']= first
+#     kwarg['last-name']= last
+#     for keys,value in kwarg.items():
+#         print(f"{keys}:{value}")
+#     return kwarg
+
+# #profile =
+# user_profile("john","doe",location="North dakota",field="software enginnering")
+# #print(profile)
+
+#8-14 cars
+# def making_car(manfu, model,color ,**kwarg):
+    
+#     print(f"My car is a {manfu}, model {model}, color: {color} ")
+#     for key, value in kwarg.items():
+#         print(f"{key}:{value}")
+#     return manfu ,model,color,kwarg
+
+# car= making_car("telsa","x",color="blue",tow_package="True")
+# print(car)
